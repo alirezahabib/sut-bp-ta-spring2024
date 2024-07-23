@@ -1,0 +1,7 @@
+6
+sum([Money(-50, 'USD'), Money(30, 'EUR'), Money(20, 'GBP')], Money(0, 'CAD'))
+max([Money(1, 'CHF'), Money(1, 'CAD'), Money(1, 'USD')], key=lambda x: x.amount)
+min([Money(100, 'USD'), Money(50, 'EUR'), Money(25, 'GBP')], key=lambda x: x.convert('IRT').amount)
+sum([Money(10, 'GBP'), Money(-20, 'EUR'), Money(5, 'USD')], Money(0, 'CHF'))
+sorted([Money(1, 'CAD'), Money(1, 'CHF'), Money(1, 'GBP')], key=lambda x: x.convert('USD').amount)
+sum([Money(-100, 'CAD'), Money(200, 'EUR'), Money(300, 'GBP')], Money(0, 'USD'))

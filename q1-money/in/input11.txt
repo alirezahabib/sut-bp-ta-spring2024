@@ -1,0 +1,9 @@
+8
+Money(100, 'TRY') + Money(50, 'CAD') / 2
+max(Money(1, 'CHF'), Money(1, 'EUR'), Money(1, 'USD'))
+Money(200, 'USD') / 4 + Money(50, 'GBP')
+sorted([Money(100, 'IRT'), Money(-100, 'IRT'), Money(50, 'IRT')], key=lambda x: x.convert('USD').amount)
+list(reversed([Money(100, 'EUR'), Money(50, 'USD'), Money(0, 'IRT')]))
+max([Money(1, 'USD'), Money(1, 'EUR'), Money(1, 'GBP')], key=lambda x: x.convert('IRT').amount)
+min([Money(-1, 'CHF'), Money(1, 'CAD'), Money(0.5, 'EUR')], key=lambda x: x.amount)
+sorted([Money(1, 'USD'), Money(1, 'GBP'), Money(1, 'EUR')], key=lambda x: x.convert('CHF').amount)

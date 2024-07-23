@@ -1,0 +1,11 @@
+10
+Money(1, 'USD') + Money(10000, 'IRT')
+Money(100, 'TRY') + Money(20, 'EUR')
+(Money(2, 'USD') - Money(30000, 'IRT')).convert('EUR')
+Money(20, 'CAD') / Money(1, 'USD')
+Money(20, 'CAD') // Money(1, 'USD')
+Money(20, 'CAD') / 3.5 + Money(10000, 'IRT')
+Money(100, 'CAD') > Money(150, 'USD')
+Money(100, 'CAD') < Money(150, 'USD')
+sorted([Money(1, 'USD'), Money(1, 'EUR'), Money(1, 'CHF'), Money(10000, 'IRT')])
+min([Money(1, 'USD'), Money(1, 'EUR'), Money(1, 'CHF'), Money(10000, 'IRT')])

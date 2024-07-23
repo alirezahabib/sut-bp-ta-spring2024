@@ -1,0 +1,16 @@
+15
+Money(1, 'USD') + Money(100, 'IRT') - Money(50, 'IRT')
+Money(75, 'CAD').convert('GBP')
+Money(5000, 'IRT') // Money(5, 'USD')
+Money(100, 'EUR').__str__()
+Money(100, 'USD') + Money(1000, 'CAD') - Money(100, 'CHF')
+Money(300, 'EUR') / Money(3, 'GBP')
+Money(200, 'CHF') * 2.5
+Money(500, 'GBP').convert('USD')
+Money(1000, 'IRT') // Money(1, 'EUR')
+(Money(100, 'CAD') + Money(50, 'EUR')).convert('USD')
+Money(1000, 'IRT') > Money(0.02, 'USD')
+Money(200, 'USD') < Money(300, 'CHF')
+(Money(50, 'CHF') - Money(1, 'USD')).convert('CAD')
+Money(100, 'EUR') * 1.1 + Money(50, 'GBP')
+Money(5000, 'IRT').__repr__()
