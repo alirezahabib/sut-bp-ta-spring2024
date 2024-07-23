@@ -1,0 +1,3 @@
+2
+Money(500, 'EUR') >= Money(580, 'USD')
+Money(200, 'TRY') <= Money(3, 'USD')

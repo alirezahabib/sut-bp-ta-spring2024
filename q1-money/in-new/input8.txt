@@ -1,0 +1,13 @@
+12
+sum([Money(0, 'CAD'), Money(0, 'USD'), Money(0, 'EUR')], Money(1, 'IRT'))
+sorted([Money(1, 'USD'), Money(1, 'EUR'), Money(-1, 'USD')], key=lambda x: x.convert('GBP').amount)
+' '.join([str(round(float(part), 2)) if i == 0 else part for i, part in enumerate(str(Money(0.5, 'GBP') * 2 + Money(-1, 'EUR')).split())])
+' '.join([str(round(float(part), 2)) if i == 0 else part for i, part in enumerate(str(Money(100, 'IRT') / 100 + Money(1, 'USD')).split())])
+' '.join([str(round(float(part), 2)) if i == 0 else part for i, part in enumerate(str((Money(1, 'CHF') - Money(1, 'USD')).convert('GBP')).split())])
+' '.join([str(round(float(part), 2)) if i == 0 else part for i, part in enumerate(str(Money(50, 'CAD').convert('TRY') + Money(25, 'EUR')).split())])
+' '.join([str(round(float(part), 2)) if i == 0 else part for i, part in enumerate(str(sum([Money(10, 'GBP'), Money(-10, 'USD'), Money(5, 'CHF')], Money(0, 'EUR'))).split())])
+sorted([Money(-1, 'IRT'), Money(1, 'USD'), Money(1, 'CHF')], key=lambda x: x.convert('CAD').amount)
+' '.join([str(round(float(part), 2)) if i == 0 else part for i, part in enumerate(str(Money(100, 'TRY') + Money(50, 'CAD') / 2).split())])
+max(Money(1, 'CHF'), Money(1, 'EUR'), Money(1, 'USD'))
+' '.join([str(round(float(part), 2)) if i == 0 else part for i, part in enumerate(str(Money(200, 'USD') / 4 + Money(50, 'GBP')).split())])
+sorted([Money(100, 'IRT'), Money(-100, 'IRT'), Money(50, 'IRT')], key=lambda x: x.convert('USD').amount)

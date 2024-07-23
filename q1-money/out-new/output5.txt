@@ -1,0 +1,9 @@
+59700.0 IRT
+1.06 GBP
+28.58
+116.26 GBP
+True
+True
+True
+False
+0.0 USD

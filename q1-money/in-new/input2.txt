@@ -1,0 +1,13 @@
+12
+' '.join([str(round(float(part), 2)) if i == 0 else part for i, part in enumerate(str(Money(1, 'USD') + Money(10000, 'IRT')).split())])
+' '.join([str(round(float(part), 2)) if i == 0 else part for i, part in enumerate(str(Money(100, 'TRY') + Money(20, 'EUR')).split())])
+' '.join([str(round(float(part), 2)) if i == 0 else part for i, part in enumerate(str((Money(2, 'USD') - Money(30000, 'IRT')).convert('EUR')).split())])
+' '.join([str(round(float(part), 2)) if i == 0 else part for i, part in enumerate(str(Money(20, 'CAD') / Money(1, 'USD')).split())])
+Money(20, 'CAD') // Money(1, 'USD')
+' '.join([str(round(float(part), 2)) if i == 0 else part for i, part in enumerate(str(Money(20, 'CAD') / 3.5 + Money(10000, 'IRT')).split())])
+Money(100, 'CAD') > Money(150, 'USD')
+Money(100, 'CAD') < Money(150, 'USD')
+sorted([Money(1, 'USD'), Money(1, 'EUR'), Money(1, 'CHF'), Money(10000, 'IRT')])
+Money(1, 'GBP') * 1.2
+Money(50, 'CAD') / 2
+' '.join([str(round(float(part), 2)) if i == 0 else part for i, part in enumerate(str(Money(100, 'CHF').convert('EUR')).split())])

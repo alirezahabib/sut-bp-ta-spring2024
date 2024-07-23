@@ -1,0 +1,10 @@
+9
+' '.join([str(round(float(part), 2)) if i == 0 else part for i, part in enumerate(str(Money(1, 'USD').convert('IRT')).split())])
+' '.join([str(round(float(part), 2)) if i == 0 else part for i, part in enumerate(str(Money(1, 'GBP') + Money(1, 'EUR') - Money(1, 'USD')).split())])
+' '.join([str(round(float(part), 2)) if i == 0 else part for i, part in enumerate(str(Money(500, 'TRY') / Money(0.5, 'EUR')).split())])
+' '.join([str(round(float(part), 2)) if i == 0 else part for i, part in enumerate(str((Money(100, 'CHF') + Money(50, 'CAD')).convert('GBP')).split())])
+Money(1, 'EUR') < Money(1, 'GBP')
+Money(1, 'USD') > Money(1, 'TRY')
+Money(1, 'CAD') <= Money(1, 'CHF')
+Money(1, 'IRT') >= Money(0.0001, 'USD')
+(Money(0, 'USD') + Money(0, 'EUR') * (Money(0, 'GBP') / Money(1, 'TRY'))).convert('USD')
