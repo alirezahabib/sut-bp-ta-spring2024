@@ -1,0 +1,74 @@
+{
+    "user1": {
+        "balance": 1200,
+        "age": 25
+    },
+    "user2": {
+        "balance": 800,
+        "age": 30
+    },
+    "user3": {
+        "balance": 950,
+        "age": 22
+    },
+    "user4": {
+        "balance": 1900,
+        "age": 21
+    },
+    "user5": {
+        "balance": 1900,
+        "age": 23
+    },
+    "user6": {
+        "balance": 1300,
+        "age": 27
+    },
+    "user7": {
+        "balance": 1550,
+        "age": 19
+    },
+    "user8": {
+        "balance": 850,
+        "age": 21
+    },
+    "user10": {
+        "balance": 1200,
+        "age": 20
+    },
+    "user12": {
+        "balance": 1500,
+        "age": 18
+    },
+    "user13": {
+        "balance": 1400,
+        "age": 26
+    },
+    "user14": {
+        "balance": -550,
+        "age": 23
+    },
+    "user16": {
+        "balance": 850,
+        "age": 23
+    },
+    "user17": {
+        "balance": 1500,
+        "age": 32
+    },
+    "user18": {
+        "balance": 550,
+        "age": 28
+    },
+    "user20": {
+        "balance": 1500,
+        "age": 20
+    },
+    "user01": {
+        "balance": 0,
+        "age": 22
+    },
+    "user99": {
+        "balance": -1000,
+        "age": 15
+    }
+}
